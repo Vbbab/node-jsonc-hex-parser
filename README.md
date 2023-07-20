@@ -4,7 +4,7 @@ Scanner and parser for JSON with comments. *(Now with support for **hexadecimal 
 Eventually, depending on my personal need though, I might slowly turn this into a **`node-jsonc5-parser`**, implementing in the full JSON5 spec.
 This is just the beginning.
 
-[![Build Status](https://github.com/Vbbab/node-jsonc-parser/actions/workflows/tests.yml)](https://github.com/Vbbab/node-jsonc-parser/actions/workflows/tests.yml/badge.svg)
+[![Build Status](https://github.com/Vbbab/node-jsonc-parser/actions/workflows/tests.yml/badge.svg)](https://github.com/Vbbab/node-jsonc-parser/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Why?
