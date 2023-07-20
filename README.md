@@ -1,9 +1,10 @@
 # jsonc-parser
 Scanner and parser for JSON with comments. *(Now with support for **hexadecimal numbers!** :smiley:)*
 
-[![npm Package](https://img.shields.io/npm/v/jsonc-parser.svg?style=flat-square)](https://www.npmjs.org/package/jsonc-parser)
-[![NPM Downloads](https://img.shields.io/npm/dm/jsonc-parser.svg)](https://npmjs.org/package/jsonc-parser)
-[![Build Status](https://github.com/microsoft/node-jsonc-parser/workflows/Tests/badge.svg)](https://github.com/microsoft/node-jsonc-parser/workflows/Tests)
+Eventually, depending on my personal need though, I might slowly turn this into a **`node-jsonc5-parser`**, implementing in the full JSON5 spec.
+This is just the beginning.
+
+[![Build Status](https://github.com/Vbbab/node-jsonc-parser/actions/workflows/tests.yml)](https://github.com/Vbbab/node-jsonc-parser/actions/workflows/tests.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Why?
