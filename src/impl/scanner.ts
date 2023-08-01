@@ -63,11 +63,7 @@ export function createScanner(text: string, ignoreTrivia: boolean = false): JSON
         // [Vbbab] have hex numbers goddamnit
         if (text.charCodeAt(pos) === CharacterCodes._0 && (text.charCodeAt(pos + 1) === CharacterCodes.x || text.charCodeAt(pos + 1) === CharacterCodes.X) && (!pos || !isDigit(text.charCodeAt(pos - 1)))) {
             pos += 2;
-            start = pos;
-            while (isDigit(text.charCodeAt(pos)) || isHexDigit(text.charCodeAt(pos))) {
-                pos++;
-            }
-            return parseInt(text.substring(start, pos), 16).toString();
+            return scanHexDigits(0, false).toString();
         }
 
         if (text.charCodeAt(pos) === CharacterCodes._0) {
